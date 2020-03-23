@@ -1,0 +1,48 @@
+body {
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    padding: 1.5em;
+    background: linear-gradient(-45deg, rgb(253, 187, 87), rgb(119, 163, 70));
+    border-radius: 10px;
+}
+
+div {
+    line-height: 2.5em;
+}
+
+input[type="text"] {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+label, input {
+    width: 100%;
+
+}
+
+@media(min-width: 700px) {
+    body {
+        width: 60%;
+        background: url("https://cdn.pixabay.com/photo/2014/12/29/08/29/lens-582605_1280.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    #container {
+        opacity: 0.9;
+    }
+
+    label, input {
+        display: inline;
+        
+    }
+
+}
